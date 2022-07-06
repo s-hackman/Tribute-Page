@@ -3,7 +3,6 @@ body {
   }
   
   
-  
   #title {
     font-size: 2rem;
     font: Arial, sans-serif;
@@ -30,12 +29,18 @@ body {
     max-width: 100%;
     border-radius: 3%;
   }
-  
-  #main {
-    justify-content: center;
-    text-align: center;
-  }
+
   
   #img-caption {
     font-size: 1rem;
+    margin: 15px 0 2px 0;
+  }
+  li {
+    margin: 10px 0;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 1rem;
+    background-color: lightblue;
   }
