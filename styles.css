@@ -1,12 +1,24 @@
-body {
-    background-color: WhiteSmoke;
+:root {
+  --color1: #1d1e1f;
+  --color2: #282b2e;
+  --color3: #35393d;
+  --color4: #3e4954;
+  --color5: #455566;
+  --color6: #c7e0de;
+}
+
+html {
+    background: linear-gradient(var(--color1),var(--color2),var(--color3),var(--color4));
   }
-  
+
+  body {
+    color: var(--color6);
+  }
   
   #title {
     font-size: 2rem;
     font: Arial, sans-serif;
-    background: lightblue;
+    background: var(--color5);
     text-align: left;
     padding: 2rem;
     border-radius: 3%;
@@ -15,7 +27,7 @@ body {
   p.headline {
     font-size: 1.3rem;
     font: Arial, sans-serif;
-    color: grey;
+    color: var(--color2);
     
   }
   
@@ -42,5 +54,5 @@ body {
   footer {
     text-align: center;
     font-size: 1rem;
-    background-color: lightblue;
+
   }
