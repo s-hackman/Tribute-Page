@@ -6,6 +6,11 @@
   --color5: #455566;
   --color6: #c7e0de;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html {
     background: linear-gradient(var(--color1),var(--color2),var(--color3),var(--color4));
@@ -13,33 +18,28 @@ html {
 
   body {
     color: var(--color6);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   }
-  
-  #title {
-    font-size: 2rem;
-    font: Arial, sans-serif;
-    background: var(--color5);
-    text-align: left;
-    padding: 2rem;
-    border-radius: 3%;
+  nav > ul > li > a {
+    color: var(--color6);
   }
-  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   p.headline {
     font-size: 1.3rem;
-    font: Arial, sans-serif;
-    color: var(--color2);
-    
+    color: var(--color5); 
   }
   
-  #tribute-info {
-    font-style: italic;
-    font-size: 1.2rem;
+  #tribute-info, #timeline {
+    margin: 80px 20px;
   }
   
-  #image {
-    display: block;
-    max-width: 100%;
-    border-radius: 3%;
+ .hero-img {
+    width: 100%;  
   }
 
   
